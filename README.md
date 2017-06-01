@@ -1,5 +1,3 @@
-# Simple Batch Manager
-
 ***Project Description***
 
 Nowadays batch applications are still a key piece of software in most organizations because a widely amount of business processes are amenable to batch processing. While online systems can also function when manual intervention is not desired, they are not typically optimized to perform high-volume, repetitive tasks. Therefore, even new systems usually contain one or more batch applications for updating information at the end of the day, generating reports, convert file formats, and other non-interactive tasks that must complete reliably within certain business deadlines.
