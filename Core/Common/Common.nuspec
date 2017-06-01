@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SBM.Common</id>
+    <version>1.0.0</version>
+    <title>Simple Batch Manager</title>
+    <authors>Andres Castiglia</authors>
+    <owners>Andres Castiglia</owners>
+<!-- 
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+-->
+    <iconUrl>http://www.charbase.com/images/glyph/1583</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Implement Batch</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>command batch</tags>
+  </metadata>
+  <files>
+    <file src="build\**" target="lib" />
+  </files>
+</package>

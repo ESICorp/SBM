@@ -1,0 +1,140 @@
+﻿header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    line-height: 30px;
+    background-color: #eeeeee;
+    height: 300px;
+    width: 105px;
+    float: left;
+    padding: 5px;
+}
+
+section {
+    width: 350px;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+.table {
+    display: table;
+    min-width: 1200px;
+}
+
+.th {
+    display: table-row;
+    background: #666;
+    color: #fff;
+}
+
+.tr {
+    display: table-row;
+}
+
+.td {
+    display: table-cell;
+    padding: 5px;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #666;
+    }
+
+    a:active {
+        color: #000;
+    }
+
+.True {
+}
+
+.False {
+    color: #DDD;
+}
+
+fieldset {
+    width: 400px;
+    float: left;
+}
+
+    fieldset label {
+        float: left;
+        min-width: 135px;
+    }
+
+    fieldset input {
+        min-width: 240px;
+    }
+
+    fieldset select {
+        min-width: 243px;
+    }
+
+.invalid {
+    color : red;
+}
+
+/*grid*/
+.Grid {
+    background-color: #fff;
+    margin: 0 0 0 0;
+    border: none;
+    border-collapse: collapse;
+}
+
+    .Grid td {
+        border: none;
+    }
+
+    .Grid th {
+        padding: 2px 2px;
+        color: #000;
+        background: #DDD;
+        border: none;
+        text-align: left;
+    }
+
+    .Grid .alt {
+        background: #eeeeee;
+    }
+
+    .Grid .pgr {
+    }
+
+        .Grid .pgr table {
+            margin: 2px 0;
+        }
+
+        .Grid .pgr td {
+            border-width: 0;
+            border: none;
+            font-weight: bold;
+            color: darkgray;
+        }
+
+        .Grid .pgr a {
+            color: black;
+            text-decoration: none;
+        }
+
+            .Grid .pgr a:hover {
+                color: darkgrey;
+                text-decoration: none;
+            }

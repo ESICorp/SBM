@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="SBM.Web.Default1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Dispatcher</title>
+    <link rel="stylesheet" href="css\dispatcher.css" />
+<%-- 
+    <script lang="javascript">
+        var dt=new Date();
+        dt.setTime(dt.getTime()+(24*60*60*1000));
+        var tz=-dt.getTimezoneOffset();
+        document.cookie="tz="+tz.toString()+"; expires="+dt.toUTCString();
+    </script>
+--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <h1>DISPATCHER</h1>
+    </header>
+    <nav>
+        <a href="Service.aspx">&#10122; SERVICE</a><br />
+        <a href="Owner.aspx">&#10123; OWNER</a><br />
+        <a href="Timer.aspx">&#10124; TIMER</a><br />
+        <a href="Done.aspx">&#10125; DONE</a><br />
+        <a href="Event.aspx">&#10126; EVENT</a><br />
+        <a href="Monitor.aspx">&#10127; MONITOR</a><br />
+    </nav>
+    <form id="form1" runat="server">
+        <section>
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+    </form>
+    <footer>
+        Copyright ©
+    </footer>
+</body>
+</html>
