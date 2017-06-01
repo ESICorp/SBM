@@ -31,3 +31,7 @@ As more and more services are incorporated, their ecosystem of services becomes 
 This set of generic, standard and specialized services makes up the so-called Service Federation Concept. These Federation of Services can be consumed on demand within the organization, or scheduled to run at a specific date.
 
 SBM was designed to extract the maximum potential of this concept of Services Federation, keeping a complete catalog of services and meeting all requirements of on demand execution or deferred execution. Having at the same time, the control and tracing mechanisms to follow every event and execution result of each dispatched service. 
+
+***Project Documentation***
+
+https://github.com/andrescastiglia/SBM/wiki
