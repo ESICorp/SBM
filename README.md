@@ -14,7 +14,7 @@ In short, just using the components included, you can for example: read a data s
 
 
 
-## What is it and what is not
+## What is and what is not
 
 **SBM** is not a framework or API of any kind. Is not a language extension or a new development paradigm. 
 
