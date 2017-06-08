@@ -1,6 +1,6 @@
-#Simple Bath Manager
+# Simple Bath Manager
 
-##Project Description
+## Project Description
 
 Nowadays batch applications are still a key piece of software in most organizations because a widely amount of business processes are amenable to batch processing. While online systems can also function when manual intervention is not desired, they are not typically optimized to perform high-volume, repetitive tasks. Therefore, even new systems usually contain one or more batch applications for updating information at the end of the day, generate reports, convert file formats, general asynchronous processing, and other non-interactive tasks that must complete reliably within certain business deadlines.
 
@@ -14,7 +14,7 @@ In short, just using the components included, you can for example: read a data s
 
 
 
-#What is it and what is not
+# What is it and what is not
 
 **SBM** is not a framework or API of any kind. Is not a language extension or a new development paradigm. 
 
